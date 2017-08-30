@@ -23,7 +23,7 @@ body {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.25;
-  color: #212529;
+  color: #FFFFFF;
   text-align: left;
   background-color: #fff; }
 
@@ -2657,7 +2657,7 @@ p {
   font-size: 0.75rem;
   line-height: 1.33; }
   .tb-start-form .terms a {
-    color: #000; }
+    color: #fff; }
 
 .divider {
   width: 100px;
