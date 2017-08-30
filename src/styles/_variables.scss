@@ -12,6 +12,11 @@ $blue:    #0099f7; //#007bff;
 
 $font-family-sans-serif: 'Open Sans', sans-serif;
 
+$font-size-sm: .75rem; // 12px
+$font-size-md: .88rem; // 14px
+
+$line-height-base: 1.25; //1.5
+
 // Grid containers
 //
 // Define the maximum width of `.container` for different screen sizes.
@@ -28,5 +33,3 @@ $container-max-widths: (
 // 
 
 $tb-prefix: tb;
-
-$font-size-base: 16px;
