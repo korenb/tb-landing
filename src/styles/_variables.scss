@@ -1,0 +1,32 @@
+//
+// Color system
+//
+
+$gray-400: #dddddd; //#ced4da;
+
+$blue:    #0099f7; //#007bff;
+
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif: 'Open Sans', sans-serif;
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1000px // 1140px
+) !default;
+
+// [TB] Vars
+//
+// 
+
+$tb-prefix: tb;
+
+$font-size-base: 16px;

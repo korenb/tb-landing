@@ -1,0 +1,6 @@
+@mixin list-row{
+    list-style: none;
+    li{
+        display: inline-block;
+    }
+}
