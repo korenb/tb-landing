@@ -3,3 +3,9 @@
 
 @import "mixins";
 @import "custom";
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}

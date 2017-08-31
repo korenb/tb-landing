@@ -157,7 +157,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #868e96;
+  color: #61717b;
   text-align: left;
   caption-side: bottom; }
 
@@ -730,10 +730,10 @@ a.bg-primary:focus, a.bg-primary:hover {
   background-color: #0079c4 !important; }
 
 .bg-secondary {
-  background-color: #868e96 !important; }
+  background-color: #61717b !important; }
 
 a.bg-secondary:focus, a.bg-secondary:hover {
-  background-color: #6c757d !important; }
+  background-color: #4b575e !important; }
 
 .bg-success {
   background-color: #28a745 !important; }
@@ -778,7 +778,7 @@ a.bg-dark:focus, a.bg-dark:hover {
   background-color: transparent !important; }
 
 .border {
-  border: 1px solid #e9ecef !important; }
+  border: 1px solid #e3e8ee !important; }
 
 .border-0 {
   border: 0 !important; }
@@ -799,7 +799,7 @@ a.bg-dark:focus, a.bg-dark:hover {
   border-color: #0099f7 !important; }
 
 .border-secondary {
-  border-color: #868e96 !important; }
+  border-color: #61717b !important; }
 
 .border-success {
   border-color: #28a745 !important; }
@@ -2523,10 +2523,10 @@ a.text-primary:focus, a.text-primary:hover {
   color: #0079c4 !important; }
 
 .text-secondary {
-  color: #868e96 !important; }
+  color: #61717b !important; }
 
 a.text-secondary:focus, a.text-secondary:hover {
-  color: #6c757d !important; }
+  color: #4b575e !important; }
 
 .text-success {
   color: #28a745 !important; }
@@ -2565,7 +2565,7 @@ a.text-dark:focus, a.text-dark:hover {
   color: #1d2124 !important; }
 
 .text-muted {
-  color: #868e96 !important; }
+  color: #61717b !important; }
 
 .text-hide {
   font: 0/0 a;
@@ -2596,7 +2596,8 @@ p {
   margin-top: 22px;
   margin-bottom: 22px; }
   .header nav ul.nav-links {
-    list-style: none; }
+    list-style: none;
+    padding: 0; }
     .header nav ul.nav-links li {
       display: inline-block; }
     .header nav ul.nav-links li:hover {
@@ -2653,6 +2654,9 @@ p {
 .tb-start-form .form .form-control {
   margin-bottom: 14px; }
 
+.tb-start-form .form .btn {
+  height: 46px; }
+
 .tb-start-form .terms {
   margin-top: 35px;
   font-size: 0.75rem;
@@ -2664,20 +2668,14 @@ p {
 .tb-features-container {
   background-color: #f0f4f6; }
 
+.tb-pricing-container {
+  background-color: #fff; }
+
+.tb-features-container, .tb-pricing-container {
+  color: #000000; }
+
 .tb-features {
-  height: 500px;
-  color: black;
-  background-color: #f0f4f6;
   padding: 80px 40px; }
-  .tb-features .tb-features--header {
-    margin-bottom: 63px;
-    font-weight: 300; }
-    .tb-features .tb-features--header h2 {
-      font-size: 2.5rem;
-      font-weight: 300; }
-    .tb-features .tb-features--header .divider {
-      margin-top: 27px;
-      margin-bottom: 17px; }
   .tb-features .tb-features--items div {
     width: 215px;
     margin-right: 60px; }
@@ -2692,6 +2690,67 @@ p {
       font-weight: 300; }
     .tb-features .tb-features--items div:last-child {
       margin-right: 0; }
+
+.tb-pricing {
+  padding: 80px 40px; }
+  .tb-pricing .tb-pricing--items div.plan {
+    width: 320px;
+    border: 1px solid #e3e8ee;
+    margin-right: 20px; }
+    .tb-pricing .tb-pricing--items div.plan:last-child {
+      margin-right: 0; }
+    .tb-pricing .tb-pricing--items div.plan .name {
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: 600;
+      height: 62px; }
+    .tb-pricing .tb-pricing--items div.plan .loud {
+      font-size: 48px;
+      font-weight: normal;
+      height: 80px;
+      color: #61717b;
+      background-color: #e3e8ee; }
+    .tb-pricing .tb-pricing--items div.plan .options-container {
+      padding: 33px 40px 46px 40px; }
+    .tb-pricing .tb-pricing--items div.plan .options {
+      list-style: none;
+      padding: 0; }
+      .tb-pricing .tb-pricing--items div.plan .options li {
+        font-size: 14px;
+        font-weight: 300;
+        box-sizing: border-box;
+        color: #d6d6d6;
+        margin-top: 12.5px;
+        padding-bottom: 12.5px; }
+        .tb-pricing .tb-pricing--items div.plan .options li:first-child {
+          margin-top: 0; }
+        .tb-pricing .tb-pricing--items div.plan .options li:last-child {
+          padding-bottom: 0;
+          border-bottom: none; }
+        .tb-pricing .tb-pricing--items div.plan .options li.include {
+          color: #888888;
+          border-bottom: 1px solid #dddddd; }
+        .tb-pricing .tb-pricing--items div.plan .options li.include-last {
+          border-bottom: none; }
+    .tb-pricing .tb-pricing--items div.plan .options + .btn {
+      margin-top: 33px;
+      height: 40px; }
+    .tb-pricing .tb-pricing--items div.plan.plan-primary {
+      border-width: 2px;
+      border-color: #0099f7; }
+      .tb-pricing .tb-pricing--items div.plan.plan-primary .loud {
+        color: #fff;
+        background-color: #0099f7; }
+
+.tb-features--header, .tb-pricing--header {
+  margin-bottom: 63px;
+  font-weight: 300; }
+  .tb-features--header h2, .tb-pricing--header h2 {
+    font-size: 2.5rem;
+    font-weight: 300; }
+  .tb-features--header .divider, .tb-pricing--header .divider {
+    margin-top: 27px;
+    margin-bottom: 17px; }
 
 .divider {
   width: 100px;
@@ -2742,3 +2801,8 @@ p {
 
 .text-underline {
   text-decoration: underline; }
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both; }

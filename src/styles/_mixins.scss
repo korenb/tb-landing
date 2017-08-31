@@ -1,6 +1,10 @@
 @mixin list-row{
-    list-style: none;
+    @include list-clear;
     li{
         display: inline-block;
     }
+}
+@mixin list-clear{
+    list-style: none;
+    padding: 0;
 }

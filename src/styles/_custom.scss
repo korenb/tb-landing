@@ -93,6 +93,9 @@ p{
         .form-control{
             margin-bottom: 14px;
         }
+        .btn{
+            height: 46px;
+        }
     }
     .terms{
         margin-top: 35px;
@@ -108,24 +111,14 @@ p{
 .tb-features-container{
     background-color: #f0f4f6;
 }
+.tb-pricing-container{
+    background-color: $white;
+}
+.tb-features-container, .tb-pricing-container{
+    color: #000000;
+}
 .tb-features{
-    height: 500px;
-    color: rgb(0, 0, 0);
-    background-color: #f0f4f6;
     padding: 80px 40px;
-
-    .tb-features--header{
-        margin-bottom: 63px;
-        font-weight: 300; 
-        h2{
-            font-size: $font-size-h2;
-            font-weight: 300; 
-        }
-        .divider{
-            margin-top: 27px;
-            margin-bottom: 17px;
-        }
-    }
     .tb-features--items div{
         .icon{
             margin-bottom: 31px;
@@ -145,6 +138,84 @@ p{
         &:last-child{
             margin-right: 0;
         }
+    }
+}
+.tb-pricing{
+    padding: 80px 40px;
+    .tb-pricing--items div.plan{
+        width: 320px;
+        border: 1px solid $gray-200;
+        margin-right: 20px;
+        &:last-child{
+            margin-right: 0;
+        }
+        .name{
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: 600;
+            height: 62px;
+        }
+        .loud{
+            font-size: 48px;
+            font-weight: normal;
+            height: 80px;
+            color: $gray-600;
+            background-color: $gray-200;
+        }
+        .options-container{
+            padding: 33px 40px 46px 40px;
+        }
+        .options{
+            @include list-clear;
+            li{
+                font-size: 14px;
+                font-weight: 300;
+                box-sizing: border-box;
+                //border-bottom: 1px solid $gray-400;
+                color: $plan-color-mute;
+                margin-top: (25px / 2);
+                padding-bottom: (25px / 2);
+                &:first-child{
+                    margin-top: 0;
+                }
+                &:last-child{
+                    padding-bottom: 0;
+                    border-bottom: none;
+                }
+                &.include{
+                    color: $plan-color;
+                    border-bottom: 1px solid $gray-400;
+                }
+                &.include-last{
+                    border-bottom: none;
+                }
+            }
+        }
+        .options + .btn{
+            margin-top: 33px;
+            height: 40px;
+        }
+        &.plan-primary{
+            border-width: 2px;
+            border-color: $blue;
+            .loud{
+                color: $white;
+                background-color: $blue;
+            }
+        }
+    }
+}
+
+.tb-features--header, .tb-pricing--header{
+    margin-bottom: 63px;
+    font-weight: 300; 
+    h2{
+        font-size: $font-size-h2;
+        font-weight: 300; 
+    }
+    .divider{
+        margin-top: 27px;
+        margin-bottom: 17px;
     }
 }
 

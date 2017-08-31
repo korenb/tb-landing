@@ -1,12 +1,17 @@
 //
 // Color system
 //
-
+$gray-200: #e3e8ee; //#e9ecef;
 $gray-400: #dddddd; //#ced4da;
+$gray-600: #61717b; //#868e96;
 
 $blue:    #0099f7; //#007bff;
 
 $body-color: #FFFFFF;
+
+$plan-color: #888888;
+$plan-color-mute: #d6d6d6;
+
 
 // Fonts
 //
@@ -16,7 +21,7 @@ $font-family-sans-serif: 'Open Sans', sans-serif;
 
 $font-size-sm: .75rem; // 12px
 $font-size-md: .88rem; // 14px
-$font-size-h2: 2.5rem;
+$font-size-h2: 2.5rem; // 40px
 
 $line-height-base: 1.25; //1.5 (20px)
 
