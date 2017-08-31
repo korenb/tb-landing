@@ -2632,7 +2632,8 @@ p {
   margin-bottom: 22px; }
 
 .tb-info .lead {
-  margin-bottom: 22px; }
+  margin-bottom: 22px;
+  font-weight: 300; }
 
 .tb-info .btn {
   width: 140px; }
@@ -2655,9 +2656,42 @@ p {
 .tb-start-form .terms {
   margin-top: 35px;
   font-size: 0.75rem;
+  font-weight: 300;
   line-height: 1.33; }
   .tb-start-form .terms a {
     color: #fff; }
+
+.tb-features-container {
+  background-color: #f0f4f6; }
+
+.tb-features {
+  height: 500px;
+  color: black;
+  background-color: #f0f4f6;
+  padding: 80px 40px; }
+  .tb-features .tb-features--header {
+    margin-bottom: 63px;
+    font-weight: 300; }
+    .tb-features .tb-features--header h2 {
+      font-size: 2.5rem;
+      font-weight: 300; }
+    .tb-features .tb-features--header .divider {
+      margin-top: 27px;
+      margin-bottom: 17px; }
+  .tb-features .tb-features--items div {
+    width: 215px;
+    margin-right: 60px; }
+    .tb-features .tb-features--items div .icon {
+      margin-bottom: 31px; }
+    .tb-features .tb-features--items div h3 {
+      font-weight: 600;
+      font-size: 18px;
+      margin-bottom: 20px; }
+    .tb-features .tb-features--items div p {
+      font-size: 0.88rem;
+      font-weight: 300; }
+    .tb-features .tb-features--items div:last-child {
+      margin-right: 0; }
 
 .divider {
   width: 100px;

@@ -57,7 +57,7 @@ p{
     }
 }
 
-.tb-info{
+.tb-info{ 
     h1{
         font-size: 2.9rem;
         line-height: 60px;
@@ -68,6 +68,7 @@ p{
     }
     .lead{
         margin-bottom: 22px;
+        font-weight: 300;
     }
     .btn{
         width: 140px;
@@ -96,9 +97,53 @@ p{
     .terms{
         margin-top: 35px;
         font-size: $font-size-sm;
+        font-weight: 300;
         line-height: 1.33;
         a{
             color: $white;
+        }
+    }
+}
+
+.tb-features-container{
+    background-color: #f0f4f6;
+}
+.tb-features{
+    height: 500px;
+    color: rgb(0, 0, 0);
+    background-color: #f0f4f6;
+    padding: 80px 40px;
+
+    .tb-features--header{
+        margin-bottom: 63px;
+        font-weight: 300; 
+        h2{
+            font-size: $font-size-h2;
+            font-weight: 300; 
+        }
+        .divider{
+            margin-top: 27px;
+            margin-bottom: 17px;
+        }
+    }
+    .tb-features--items div{
+        .icon{
+            margin-bottom: 31px;
+        }
+        h3{
+            font-weight: 600;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: $font-size-md;
+            font-weight: 300;
+        }
+
+        width: 215px;
+        margin-right: 60px;
+        &:last-child{
+            margin-right: 0;
         }
     }
 }
