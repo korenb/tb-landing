@@ -152,9 +152,61 @@
                 </div>
             </div>
         </div>
+        <div class="container-fluid tb-contact-container position-relative pl-0">
+            <div id="map" class="h-100 position-absolute">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d193642.67831630897!2d-73.98817359044081!3d40.68130893615153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1504183135085"
+                    frameborder="0" style="border:0" class="w-100 h-100"></iframe>
+            </div>
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-5 invisible"></div>
+                    <div class="col-1" id="map-right-edge"></div>
+                    <div class="col-6">
+                        <div class="tb-contact-form">
+                            <h2>Contact Information</h2>
+                            <div class="divider"></div>
+                            <ul>
+                                <li>
+                                    <img class="icon" src="images/icon-sm-phone.png" alt="phone icon"> 888-877-8575
+                                </li>
+                                <li>
+                                    <img class="icon" src="images/icon-sm-mail.png" alt="mail icon"> mail@tbboard.com
+                                </li>
+                            </ul>
+                            <p>Say hello to us! <br> Let’s talk business or just have a coffee. Ask any question. We would love
+                                to hear from you! Or just use this simple form below.
+                            </p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <input class="form-control" type="text" placeholder="Name">
+                                </div>
+                                <div class="col-6">
+                                    <input class="form-control" type="text" placeholder="Email">
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control" placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="button" class="btn btn-primary btn-fill w-100 text-uppercase">Send message</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
     </footer>
 </body>
+
+<script>
+    (function () {
+        var map = document.getElementById("map");
+        var mapEdge = document.getElementById("map-right-edge");
+        map.style.width = mapEdge.offsetLeft + 'px';
+    })();
+</script>
 
 </html>

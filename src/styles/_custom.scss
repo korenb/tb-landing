@@ -108,13 +108,13 @@ p{
     }
 }
 
-.tb-features-container{
+.tb-features-container, .tb-contact-container{
     background-color: #f0f4f6;
 }
 .tb-pricing-container{
     background-color: $white;
 }
-.tb-features-container, .tb-pricing-container{
+.tb-features-container, .tb-pricing-container, .tb-contact-container{
     color: #000000;
 }
 .tb-features{
@@ -192,6 +192,7 @@ p{
             }
         }
         .options + .btn{
+            font-weight: 600;
             margin-top: 33px;
             height: 40px;
         }
@@ -209,7 +210,6 @@ p{
         font-size: 16px;
         font-weight: 300;
         margin-top: 50px;
-        margin-bottom: 60px;
     }
 }
 
@@ -223,6 +223,39 @@ p{
     .divider{
         margin-top: 27px;
         margin-bottom: 17px;
+    }
+}
+.tb-contact-form{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    h2{
+        font-size: $font-size-h2;
+        font-weight: 300;
+    }
+    .divider{
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    ul{
+        @include list-clear;
+        font-weight: 600;
+        li{
+            @include margin-between(13px);
+        }
+        li .icon{
+            margin-right: 15px;
+        } 
+        margin-bottom: 25px;
+    }
+    p{
+        font-weight: 300;
+        margin-bottom: 25px;
+    }
+    .form-control{
+        margin-bottom: 20px;
+    }
+    .btn{
+        font-weight: 600;
     }
 }
 
@@ -270,6 +303,9 @@ p{
     outline: none;
     border: none;
     padding: 11.5px 22px;
+}
+textarea.form-control{
+    height: 150px;
 }
 
 // ===========

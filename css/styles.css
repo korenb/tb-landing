@@ -2665,13 +2665,13 @@ p {
   .tb-start-form .terms a {
     color: #fff; }
 
-.tb-features-container {
+.tb-features-container, .tb-contact-container {
   background-color: #f0f4f6; }
 
 .tb-pricing-container {
   background-color: #fff; }
 
-.tb-features-container, .tb-pricing-container {
+.tb-features-container, .tb-pricing-container, .tb-contact-container {
   color: #000000; }
 
 .tb-features {
@@ -2733,6 +2733,7 @@ p {
         .tb-pricing .tb-pricing--items div.plan .options li.include-last {
           border-bottom: none; }
     .tb-pricing .tb-pricing--items div.plan .options + .btn {
+      font-weight: 600;
       margin-top: 33px;
       height: 40px; }
     .tb-pricing .tb-pricing--items div.plan.plan-primary {
@@ -2745,8 +2746,7 @@ p {
     text-align: center;
     font-size: 16px;
     font-weight: 300;
-    margin-top: 50px;
-    margin-bottom: 60px; }
+    margin-top: 50px; }
 
 .tb-features--header, .tb-pricing--header {
   margin-bottom: 63px;
@@ -2757,6 +2757,34 @@ p {
   .tb-features--header .divider, .tb-pricing--header .divider {
     margin-top: 27px;
     margin-bottom: 17px; }
+
+.tb-contact-form {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+  .tb-contact-form h2 {
+    font-size: 2.5rem;
+    font-weight: 300; }
+  .tb-contact-form .divider {
+    margin-top: 15px;
+    margin-bottom: 25px; }
+  .tb-contact-form ul {
+    list-style: none;
+    padding: 0;
+    font-weight: 600;
+    margin-bottom: 25px; }
+    .tb-contact-form ul li {
+      margin-bottom: 13px; }
+      .tb-contact-form ul li::last-child {
+        margin-bottom: 0; }
+    .tb-contact-form ul li .icon {
+      margin-right: 15px; }
+  .tb-contact-form p {
+    font-weight: 300;
+    margin-bottom: 25px; }
+  .tb-contact-form .form-control {
+    margin-bottom: 20px; }
+  .tb-contact-form .btn {
+    font-weight: 600; }
 
 .divider {
   width: 100px;
@@ -2798,6 +2826,9 @@ p {
   outline: none;
   border: none;
   padding: 11.5px 22px; }
+
+textarea.form-control {
+  height: 150px; }
 
 .h-100v {
   height: 100vh !important; }
