@@ -2741,6 +2741,12 @@ p {
       .tb-pricing .tb-pricing--items div.plan.plan-primary .loud {
         color: #fff;
         background-color: #0099f7; }
+  .tb-pricing .tb-pricing--footer {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-bottom: 60px; }
 
 .tb-features--header, .tb-pricing--header {
   margin-bottom: 63px;
