@@ -11,6 +11,11 @@ p{
     margin-bottom: 0;
 }
 
+.header-bg{
+    background-image: url(/images/back.jpg);
+    background-size: cover;
+}
+
 .header {
     margin-top: 22px;
     margin-bottom: 22px;
@@ -308,6 +313,15 @@ textarea.form-control{
     height: 150px;
 }
 
+footer{
+    height: 100px;
+    background-color: #2e3946;
+    .copyrights, .copyrights a{
+        color: $gray-600;
+        font-weight: 300;
+    }
+}
+
 // ===========
 
 .h-100v{
@@ -319,5 +333,5 @@ textarea.form-control{
 }
 
 .text-underline{
-    text-decoration: underline;
+    text-decoration: underline !important;
 }

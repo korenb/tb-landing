@@ -2592,6 +2592,10 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-bottom: 0; }
 
+.header-bg {
+  background-image: url(/images/back.jpg);
+  background-size: cover; }
+
 .header {
   margin-top: 22px;
   margin-bottom: 22px; }
@@ -2830,6 +2834,13 @@ p {
 textarea.form-control {
   height: 150px; }
 
+footer {
+  height: 100px;
+  background-color: #2e3946; }
+  footer .copyrights, footer .copyrights a {
+    color: #61717b;
+    font-weight: 300; }
+
 .h-100v {
   height: 100vh !important; }
 
@@ -2837,7 +2848,7 @@ textarea.form-control {
   flex-grow: 1; }
 
 .text-underline {
-  text-decoration: underline; }
+  text-decoration: underline !important; }
 
 .clearfix::after {
   display: block;
