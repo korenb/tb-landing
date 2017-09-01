@@ -2593,7 +2593,7 @@ p {
   margin-bottom: 0; }
 
 .header-bg {
-  background-image: url(/images/back.jpg);
+  background-image: url(../images/back.jpg);
   background-size: cover; }
   .header-bg::before {
     content: '';
