@@ -8,7 +8,7 @@
     <title>TB Board Landing</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700i" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="Content/css/styles.css">
 </head>
 
 <body>
@@ -16,14 +16,14 @@
         <header class="container h-100v d-flex flex-column">
             <div class="header row">
                 <div class="logo col-2">
-                    <img src="images/logo.png" alt="">
+                    <img src="Content/images/landing/logo.png" alt="">
                 </div>
                 <nav class="col-10 d-flex justify-content-end align-items-center">
                     <ul class="nav-links d-flex">
-                        <li><a href="javascript: ;" title="About">About</a></li>
-                        <li><a href="javascript: ;" title="Features">Features</a></li>
-                        <li><a href="javascript: ;" title="Pricing">Pricing</a></li>
-                        <li><a href="javascript: ;" title="Contact">Contact</a></li>
+                        <!-- <li><a href="javascript: ;" title="About">About</a></li> -->
+                        <li><a href="#features" title="Features">Features</a></li>
+                        <li><a href="#pricing" title="Pricing">Pricing</a></li>
+                        <li><a href="#contacts" title="Contact">Contact</a></li>
                     </ul>
                     <div class="nav-buttons">
                         <a href="javascript: ;" class="btn btn-sm btn-primary text-uppercase">Sign in</a>
@@ -35,13 +35,12 @@
                 <div class="col-6 tb-info">
                     <h1><strong><em>Your</em></strong> Long Distance Delivery <strong><em>Solution</em></strong></h1>
                     <div class="divider"></div>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tortor dui, bibendum non tortor ut, commodo
-                        pulvinar ipsum. Integer consectetur, ligula at finibus imperdiet, dui diam.</p>
+                    <p class="lead">TB Boards is the ideal service to improve your company’s customer relationship management strategies and business to business compatibility. Let us show you how an integrated approach to customer relations will build your brand above and beyond your competitors.</p>
                 </div>
                 <div class="col-6 tb-start-form">
                     <div class="bg ml-auto">
                         <div class="label d-flex align-items-center">
-                            <img src="images/icon-signup.png" alt="sign up icon">
+                            <img src="Content/images/landing/icon-signup.png" alt="sign up icon">
                             <p>Request your FREE Demo</p>
                         </div>
                         <form class="form">
@@ -61,7 +60,7 @@
         </header>
     </div>
     <main>
-        <div class="container-fluid tb-features-container">
+        <div class="container-fluid tb-features-container" id="features">
             <div class="container tb-features d-flex flex-column">
                 <div class="tb-features--header text-center">
                     <h2>Features</h2>
@@ -71,29 +70,29 @@
                 <div class="tb-features--items d-flex justify-content-center align-self-center">
                     <div class="text-center">
                         <div class="icon d-flex justify-content-center align-items-end">
-                            <img src="images/icon-search.png" alt="search icon">
+                            <img src="Content/images/landing/icon-search.png" alt="search icon">
                         </div>
                         <h3>Easily Find and Dispatch Jobs</h3>
-                        <p>Find jobs enroute and job control. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>TB Boards allows you to participate with more clients. Enjoy multiple methods of customer communication. Forge new client relationships while improving old ones. </p>
                     </div>
                     <div class="text-center">
                         <div class="icon">
-                            <img src="images/icon-partner.png" alt="partner icon">
+                            <img src="Content/images/landing/icon-partner.png" alt="partner icon">
                         </div>
-                        <h3>Be partners with high-rated company</h3>
-                        <p>Be partners with high-rated company. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Be Partners with High-Rated Companies</h3>
+                        <p>Get access to a number of top-end organizations which utilize the TB Boards services. Build your network and in turn, build your standing.</p>
                     </div>
                     <div class="text-center">
                         <div class="icon">
-                            <img src="images/icon-billing.png" alt="partner icon">
+                            <img src="Content/images/landing/icon-billing.png" alt="partner icon">
                         </div>
-                        <h3>Keep your billing updated</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tortor dui, bibendum non tortor.</p>
+                        <h3>Keep Your Billing Updated</h3>
+                        <p>Integrate your billing and account systems through TB Board’s online tracking system. Streamline company financials and enjoy 24-hour accessibility throughout the world. </p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid tb-pricing-container">
+        <div class="container-fluid tb-pricing-container" id="pricing">
             <div class="container tb-pricing d-flex flex-column">
                 <div class="tb-pricing--header text-center">
                     <h2>Pricing</h2>
@@ -119,7 +118,7 @@
                             <a href="javascript: ;" class="btn btn-primary btn-fill text-uppercase w-100">Get started</a>
                         </div>
                     </div>
-                    <div class="text-center plan plan-primary">
+                    <div class="text-center plan">
                         <div class="name d-flex align-items-center justify-content-center">
                             <div>Business</div>
                         </div>
@@ -161,7 +160,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid tb-contact-container position-relative pl-0">
+        <div class="container-fluid tb-contact-container position-relative pl-0" id="contacts">
             <div id="map" class="h-100 position-absolute"></div>
             <div class="container">
                 <div class="row no-gutters">
@@ -173,13 +172,13 @@
                             <div class="divider"></div>
                             <ul>
                                 <li>
-                                    <img class="icon" src="images/icon-sm-phone.png" alt="phone icon"> <a href="tel:+18888788570">888.878.8570</a>
+                                    <img class="icon" src="Content/images/landing/icon-sm-phone.png" alt="phone icon"> <a href="tel:+18888788570">888.878.8570</a>
                                 </li>
                                 <li>
-                                    <img class="icon" src="images/icon-sm-mail.png" alt="mail icon"> <a href="mailto:info@tbboard.com">info@tbboard.com</a>
+                                    <img class="icon" src="Content/images/landing/icon-sm-mail.png" alt="mail icon"> <a href="mailto:info@tbboard.com">info@tbboard.com</a>
                                 </li>
                                 <li>
-                                    <img class="icon" src="images/icon-sm-location.png" alt="location icon"> 211 East 43rd Street 7th Fl New York NY 10017
+                                    <img class="icon" src="Content/images/landing/icon-sm-location.png" alt="location icon"> 211 East 43rd Street 7th Fl New York NY 10017
                                 </li>
                             </ul>
                             <p>Say hello to us! <br> Let’s talk business or just have a coffee. Ask any question. We would love
@@ -214,39 +213,39 @@
                     Copyright © 2017 TB Board Company. <a href="javascript: ;" class="text-underline">Privacy Policy</a>
                 </div>
                 <div class="col-2">
-                    <img class="logo" src="images/logo-muted.png" alt="logo">
+                    <img class="logo" src="Content/images/landing/logo-muted.png" alt="logo">
                 </div>
             </div>
         </div>
     </footer>
+
+    <script>
+        var map = document.getElementById("map");
+        var mapEdge = document.getElementById("map-right-edge");
+    
+        function UpdateMapWidth(){
+            map.style.width = mapEdge.offsetLeft + 'px';
+        }
+    
+        function InitMap(){
+            var location = {
+                lat: 40.675898,
+                lng: -73.902515
+            };
+            var gmap = new google.maps.Map(map, {
+                zoom: 12,
+                center: location
+            });
+            var marker = new google.maps.Marker({
+                position: location,
+                map: gmap
+            });
+        }
+    
+        UpdateMapWidth();
+        window.addEventListener('resize', UpdateMapWidth);
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvcqH6P1XBQx3hRjY17C0z727bmjXxmOk&callback=InitMap"></script>
 </body>
-
-<script>
-    var map = document.getElementById("map");
-    var mapEdge = document.getElementById("map-right-edge");
-
-    function UpdateMapWidth(){
-        map.style.width = mapEdge.offsetLeft + 'px';
-    }
-
-    function InitMap(){
-        var location = {
-            lat: 40.675898,
-            lng: -73.902515
-        };
-        var gmap = new google.maps.Map(map, {
-            zoom: 12,
-            center: location
-        });
-        var marker = new google.maps.Marker({
-            position: location,
-            map: gmap
-        });
-    }
-
-    UpdateMapWidth();
-    window.addEventListener('resize', UpdateMapWidth);
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvcqH6P1XBQx3hRjY17C0z727bmjXxmOk&callback=InitMap"></script>
 
 </html>
