@@ -24,6 +24,10 @@ p{
         height: 100%;
         background-color: rgba(22, 28, 35, .71);
     }
+    &-mini{
+        background-image: none;
+        background-color: $tb-back-color;
+    }
 }
 
 .header {
@@ -37,7 +41,7 @@ p{
             @include list-row;
             li:hover{
                 font-weight: 600;
-                border-bottom: 1px solid $white;
+                border-bottom: 1px solid $blue;
             }
             li:hover{
                 color: $white;
@@ -70,6 +74,7 @@ p{
             }
         }
     }
+    
 }
 
 .tb-info{ 
@@ -282,6 +287,21 @@ p{
     }
 }
 
+.tb-documents{
+    min-height: calc(100vh - 181px);
+    color: $gray-700;
+    h1{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    h2{
+        margin-bottom: 5px;
+    }
+    .row{
+        padding-bottom: 30px;
+    }
+}
+
 // ===========
 
 .divider{
@@ -333,7 +353,7 @@ textarea.form-control{
 
 footer{
     height: 100px;
-    background-color: #2e3946;
+    background-color: $tb-back-color;
     .copyrights, .copyrights a{
         color: $gray-600;
         font-weight: 300;

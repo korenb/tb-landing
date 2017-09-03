@@ -11,6 +11,7 @@ $body-color: #FFFFFF;
 
 $plan-color: #888888;
 $plan-color-mute: #d6d6d6;
+$tb-back-color: #2e3946;
 
 
 // Fonts
@@ -35,9 +36,3 @@ $container-max-widths: (
   lg: 960px,
   xl: 1000px // 1140px
 ) !default;
-
-// [TB] Vars
-//
-// 
-
-$tb-prefix: tb;
