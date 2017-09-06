@@ -1,0 +1,19 @@
+a:hover{
+    text-decoration: unset;
+}
+ul{
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    margin-bottom: 0;
+}
+p{
+    margin-bottom: 0;
+}
+
+input[disabled], button[disabled], a.disabled{
+    cursor: not-allowed;
+}
+input[type="submit"], button{
+    cursor: pointer;
+}

@@ -2,10 +2,5 @@
 @import "custom-bootstrap";
 
 @import "mixins";
+@import "default";
 @import "custom";
-
-.clearfix::after {
-    display: block;
-    content: "";
-    clear: both;
-}

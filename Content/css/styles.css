@@ -2592,6 +2592,12 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-bottom: 0; }
 
+input[disabled], button[disabled], a.disabled {
+  cursor: not-allowed; }
+
+input[type="submit"], button {
+  cursor: pointer; }
+
 .header-bg {
   background-image: url(../images/landing/back.jpg);
   background-size: cover; }
@@ -2604,6 +2610,9 @@ p {
     width: 100%;
     height: 100%;
     background-color: rgba(22, 28, 35, 0.71); }
+  .header-bg-mini {
+    background-image: none;
+    background-color: #2e3946; }
 
 .header {
   margin-top: 22px;
@@ -2615,7 +2624,7 @@ p {
       display: inline-block; }
     .header nav ul.nav-links li:hover {
       font-weight: 600;
-      border-bottom: 1px solid #fff; }
+      border-bottom: 1px solid #0099f7; }
     .header nav ul.nav-links li:hover {
       color: #fff; }
     .header nav ul.nav-links li {
@@ -2801,6 +2810,17 @@ p {
   .tb-contact-form .btn {
     font-weight: 600; }
 
+.tb-documents {
+  min-height: calc(100vh - 181px);
+  color: #495057; }
+  .tb-documents h1 {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  .tb-documents h2 {
+    margin-bottom: 5px; }
+  .tb-documents .row {
+    padding-bottom: 30px; }
+
 .divider {
   width: 100px;
   height: 2px;
@@ -2860,8 +2880,3 @@ footer {
 
 .text-underline {
   text-decoration: underline !important; }
-
-.clearfix::after {
-  display: block;
-  content: "";
-  clear: both; }
