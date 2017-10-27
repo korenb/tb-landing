@@ -56,11 +56,11 @@
                 // margin-bottom:-1px;
             }
         }
-        .nav-buttons{
-            .btn:hover{
-                color: $blue;
-            }
-        }
+        // .nav-buttons{
+        //     .btn:hover{
+        //         color: $blue;
+        //     }
+        // }
     }
     
 }
@@ -314,9 +314,15 @@
     border-color: $blue;
     color: $blue;
 }
+.btn-primary.live:hover{
+    color: $blue;
+}
 .btn-primary.btn-fill{
     background-color: $blue;
     color: $white;
+}
+.btn-primary.btn-fill.live:hover{
+    color: #000000;
 }
 .btn-default{
     border-color: $white;
@@ -324,6 +330,9 @@
 }
 .btn-default:hover{
     color: $white;
+}
+.btn-wider{
+    width: 120px;
 }
 
 .form-control{
@@ -360,4 +369,8 @@ footer{
 
 .text-underline{
     text-decoration: underline !important;
+}
+
+.bold{
+    font-weight: 800;
 }
